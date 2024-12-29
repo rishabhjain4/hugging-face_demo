@@ -20,6 +20,6 @@ jobs:
       - name: remote add space
         env:
           HF: ${{ secrets.HG }}
-        run: git remote add space https://Rishabh4:$HF@huggingface.co/spaces/Rishabh4/demo
-      - name: push to hub
-        run: git push --force space main
+        run: git push https://Rishabh4:$HF@huggingface.co/spaces/Rishabh4/demo main
+
+        
